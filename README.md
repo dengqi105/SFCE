@@ -1,14 +1,17 @@
 # MCE
-how to use the code
+## how to use the code
 
-extract the features between differnent measured sensors,the format of input X should be (examples,sensors,length)
+extract the features between differnent measured sensors, the format of input X should be (examples, sensors, length)
+```python
+clf = MCE (fs, K, kernel_size)
 
-transformer = MCE(fs,K,kernel_size)
-
-features, inner_features, intra_features=transformer.transform(X)
+features, inner_features, intra_feature = clf.transform(X)
+```
 
 predict the result
 
-clf = MCE(fs,K,kernel_size)
+```python
+clf = MCE (fs, K, kernel_size)
 
-y_pre=clf.fit_predict(X_train,Y_train,X_test)
+y_pre = clf.fit_predict(X_train, Y_train, X_test)
+```
