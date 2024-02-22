@@ -13,5 +13,5 @@ predict the result
 ```python
 clf = MCE (fs, K, kernel_size)
 
-y_pre = clf.fit_predict(X_train, Y_train, X_test)
+Y_pre = clf.fit_predict(X_train, Y_train, X_test)
 ```
