@@ -24,10 +24,10 @@ Y_pre = Extractor.fit_predict(X_train, Y_train, X_test)
 ```
 ## Results
 In addition to the dataset in the paper, several additional datasets have been used to validate the effectiveness of SFCE
-| Dataset name  | Second Header | Second Header |
-| ------------- | ------------- | Second Header |
-| Content Cell  | Content Cell  | Second Header |
-| Content Cell  | Content Cell  | Second Header |
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
 
 
 ## Data availability
