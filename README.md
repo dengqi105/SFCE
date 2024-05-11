@@ -4,11 +4,12 @@
 ## how to use the code
 ## key parameters
 fs is the sampling frequency
+
 K is the number of FIMFs, 5~10 is suitable for most situations.
 
 ## Examples
 
-Extract the features from all measured signals, the format of input X should be (examples, sensors, length) #(E, S, L)
+Extract the features from all measured signals, the format of input X should be (examples, sensors, length)
 ```python
 Extractor = SFCE (fs, K)
 
