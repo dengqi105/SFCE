@@ -2,19 +2,27 @@
 # SFCE: mining distinguishing correlative features for mechanical fault diagnosis towards time-varying conditions
 
 ## how to use the code
+## key parameters
+fs is the sampling frequency
+K is the number of FIMFs, 5~10 is suitable for most situations.
+
 ## Examples
 
-extract the features between differnent measured sensors, the format of input X should be (examples, sensors, length)
+Extract the features from all measured signals, the format of input X should be (examples, sensors, length) #(E, S, L)
 ```python
 Extractor = SFCE (fs, K)
 
-features, inner_features, intra_feature = Extractor.transform(X)
+features, inner_features, intra_features = Extractor.transform(X)
 ```
 
-predict the result
+and predict the result
 
 ```python
-Extractor = SFCE (fs, K, kernel_size)
 
 Y_pre = Extractor.fit_predict(X_train, Y_train, X_test)
 ```
+## Results
+In addition to the dataset in the paper, several additional datasets have been used to validate the effectiveness of SFCE
+
+
+## Data availability
