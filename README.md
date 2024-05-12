@@ -11,7 +11,7 @@ K is the number of FIMFs, 5~10 is suitable for most situations.
 
 Extract the features from all measured signals, the format of input X should be (examples, sensors, length)
 ```python
-Extractor = SFCE (fs, K)
+Extractor = SFCE (fs, K,kernel_size=45,d_method="FDM",corr="Correntropy",clf="RR",z_score=True)
 
 features, inner_features, intra_features = Extractor.transform(X)
 ```
