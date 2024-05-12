@@ -11,6 +11,8 @@ In addition to the datasets in the paper, several additional datasets have been 
 |  MCC5-THU |      time-varing speed     	|     6   	| 512 	| :------------:	| :------------:	|
 
 ## Results under constant speed condition
+| dataset name  	|condition|     sensors(S)     	| sample length(L) 	| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
+|:------:	  |:-----------------:	|:------------:	| :------------:	| :------------:	| :------------:	|
 |    KAIST   |      constant speed     	|     4   	| 2700 	| :------------:	| :------------:	|
 | SEU-gearbox|      constant speed     	|     8   	| 512 	| :------------:	| :------------:	|
 | SEU-bearing|      constant speed     	|     6   	| 512 	| :------------:	| :------------:	|
