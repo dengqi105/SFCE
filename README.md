@@ -3,11 +3,17 @@
 
 ## Results
 In addition to the datasets in the paper, several additional datasets have been used to validate the effectiveness of SFCE
-| dataset name  	|     sensors(S)     	| sample length(L) 	| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
-|:------:	|:-----------------:	|:------------:	| :------------:	| :------------:	|
-|    1   	|      CCDG.py      	|     Model    	| sample length(L) 	| :------------:	|
-
-
+| dataset name  	|condition|     sensors(S)     	| sample length(L) 	| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
+|:------:	  |:-----------------:	|:------------:	| :------------:	| :------------:	| :------------:	|
+|    KAIST  |      constant speed     	|     4   	| 2700 	| :------------:	| :------------:	|
+|    KAIST  |      time-varing speed     	|     4   	| 2700 	| :------------:	| :------------:	|
+|    WT   	|      constant speed     	|     4   	| 6000 	| :------------:	| :------------:	|
+|    WT   	|      time-varing speed     	|     4   	| 6000 	| :------------:	| :------------:	|
+|    HIT   	|      time-varing speed     	|     6   	| 512 	| :------------:	| :------------:	|
+|    SEU   	|      constant speed     	|     8   	| 512 	| :------------:	| :------------:	|
+|    SEU   	|      constant speed     	|     6   	| 512 	| :------------:	| :------------:	|
+|    HIT   	|      time-varing speed     	|     6   	| 512 	| :------------:	| :------------:	|
+|  MCC5-THU |      time-varing speed     	|     6   	| 512 	| :------------:	| :------------:	|
 
 ## Data availability
 
