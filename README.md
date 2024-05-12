@@ -3,24 +3,24 @@
 
 ## Results under the time-varying condition
 In addition to the datasets in the paper, several additional datasets have been used to further validate the effectiveness of SFCE
-| dataset name  	|     number of sensors(S)     	| sample length(L) 	| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
-|:------:	  |:-----------------:|:------------:	| :------------:	| :------------:	|
-|    KAIST  |     4   	| 2700 	| 15	| 40	|
-|    WT   	|     4   	| 6000 	| 14	| 35	|
-|    HIT   	|     6   	| 512 	| 6	  | 13	|
-|  MCC5-THU(speed) |     6   	| 2456 	| 10	| 33	|
-|  MCC5-THU(load)  |     6   	| 1842 	  | 2   | 30	|
+| dataset name  	|     number of sensors(S)     	| sample length(L) 	|K| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
+|:------:	  |:-----------------:|:------------:	| :------------:	| :------------:	| :------------:	|
+|    KAIST        |     4   	| 2700 	|9| 15	| 40	|
+|    WT   	      |     4   	| 6000 	|5| 14	| 35	|
+|    HIT   	      |     6   	| 512 	|7| 6	  | 13	|
+|  MCC5-THU(speed)|     6   	| 2456 	|5| 10	| 33	|
+|  MCC5-THU(load) |     6   	| 1842 	|5| 2   | 30	|
 
 ## Results under constant speed condition
-| dataset name  	|     number of sensors(S)     	| sample length(L) 	| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
-|:------:	   |:-----------------:	|:------------:	| :------------:	| :------------:	|
-|    KAIST   |     4   	| 2700 	| 1	| 2	|
-|    WT   	 |     4   	| 6000 	| 3	| 5	|
-| SEU-gearbox|     8   	| 512 	| 3	| 4	|
-| SEU-bearing|     8   	| 512 	| 2	| 7	|
+| dataset name  	|     number of sensors(S)     	| sample length(L) 	|K| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
+|:------:	   |:-----------------:	|:------------:	| :------------:	| :------------:	| :------------:	|
+|    KAIST   |     4   	| 2700 	|9| 1	| 2	|
+|    WT   	 |     4   	| 6000 	|5| 3	| 5	|
+| SEU-gearbox|     8   	| 512 	|7| 3	| 4	|
+| SEU-bearing|     8   	| 512 	|7| 2	| 7	|
 
 ## Data availability
-The [KAIST](https://data.mendeley.com/datasets/vxkj334rzv/7) [HIT](https://github.com/HouLeiHIT/HIT-dataset) [MCC5-THU](https://data.mendeley.com/datasets/p92gj2732w/2) [SEU](https://github.com/cathysiyu/Mechanical-datasets) datasets can be downloaded directly.
+The [KAIST](https://data.mendeley.com/datasets/vxkj334rzv/7) [HIT](https://github.com/HouLeiHIT/HIT-dataset) [MCC5-THU](https://data.mendeley.com/datasets/p92gj2732w/2) [SEU](https://github.com/cathysiyu/Mechanical-datasets) dataset can be downloaded directly.
 
 The WT dataset in collaboration with Weite Technologies is not available for open source sharing due to confidentiality and proprietary considerations.
 ## how to use the code
