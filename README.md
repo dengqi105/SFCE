@@ -3,20 +3,20 @@
 
 ## Results under time-varying condition
 In addition to the datasets in the paper, several additional datasets have been used to validate the effectiveness of SFCE
-| dataset name  	|condition|     sensors(S)     	| sample length(L) 	| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
+| dataset name  	|     number of sensors(S)     	| sample length(L) 	| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
 |:------:	  |:-----------------:	|:------------:	| :------------:	| :------------:	| :------------:	|
-|    KAIST  |      time-varing speed     	|     4   	| 2700 	| :------------:	| :------------:	|
-|    WT   	|      time-varing speed     	|     4   	| 6000 	| :------------:	| :------------:	|
-|    HIT   	|      time-varing speed     	|     6   	| 512 	| :------------:	| :------------:	|
-|  MCC5-THU |      time-varing speed     	|     6   	| 512 	| :------------:	| :------------:	|
+|    KAIST  |     4   	| 2700 	| :------------:	| :------------:	|
+|    WT   	|     4   	| 6000 	| :------------:	| :------------:	|
+|    HIT   	|     6   	| 512 	| :------------:	| :------------:	|
+|  MCC5-THU |     6   	| 512 	| :------------:	| :------------:	|
 
 ## Results under constant speed condition
-| dataset name  	|condition|     sensors(S)     	| sample length(L) 	| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
+| dataset name  	|     number of sensors(S)     	| sample length(L) 	| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
 |:------:	  |:-----------------:	|:------------:	| :------------:	| :------------:	| :------------:	|
-|    KAIST   |      constant speed     	|     4   	| 2700 	| :------------:	| :------------:	|
-| SEU-gearbox|      constant speed     	|     8   	| 512 	| :------------:	| :------------:	|
-| SEU-bearing|      constant speed     	|     6   	| 512 	| :------------:	| :------------:	|
-|    WT   	|      constant speed     	|     4   	| 6000 	| :------------:	| :------------:	|
+|    KAIST   |     4   	| 2700 	| :------------:	| :------------:	|
+| SEU-gearbox|     8   	| 512 	| :------------:	| :------------:	|
+| SEU-bearing|     6   	| 512 	| :------------:	| :------------:	|
+|    WT   	|     4   	| 6000 	| :------------:	| :------------:	|
 
 
 ## Data availability
