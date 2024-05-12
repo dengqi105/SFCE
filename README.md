@@ -20,7 +20,9 @@ In addition to the datasets in the paper, several additional datasets have been 
 | SEU-bearing|     8   	| 512 	| 2	| 7	|
 
 ## Data availability
-
+[KAIST](https://data.mendeley.com/datasets/vxkj334rzv/7)
+[HIT](https://github.com/HouLeiHIT/HIT-dataset)
+[MCC5-THU](https://data.mendeley.com/datasets/p92gj2732w/2)
 
 ## how to use the code
 ## key parameters
