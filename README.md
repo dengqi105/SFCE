@@ -3,10 +3,19 @@
 
 ## Results
 In addition to the datasets in the paper, several additional datasets have been used to validate the effectiveness of SFCE
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| dataset name  	|     File Name     	| Descriptions 	|                                                           Paper                                                           	|
+|:------:	|:-----------------:	|:------------:	|:-------------------------------------------------------------------------------------------------------------------------:	|
+|    1   	|      CCDG.py      	|     Model    	|                             Conditional Contrastive Domain Generalization for Fault Diagnosis                             	|
+|    2   	|      CNN-C.py     	|     Model    	| Learn Generalization Feature via Convolutional Neural Network:A Fault Diagnosis Scheme Toward Unseen Operating Conditions 	|
+|    3   	|      DANN.py      	|     Model    	|                                     Adversarial traning among mulitple source domains                                     	|
+|    4   	|     DCORAL.py     	|     Model    	|                                         Reduce CORAL among mulitple source domains                                        	|
+|    5   	|       DDC.py      	|     Model    	|                                          Reduce MMD among mulitple source domains                                         	|
+|    6   	|      DGNIS.py     	|     Model    	|     A domain generalization   network combing invariance and specificity towards real-time intelligent fault diagnosis    	|
+|    7   	|       ERM.py      	|     Model    	|                                                 Reduce Classfication loss                                                 	|
+|    8   	|     IEDGNet.py    	|     Model    	|   A hybrid generalization network for intelligent fault diagnosis of rotating machinery under unseen working conditions   	|
+|    9   	| data_loaded_1d.py 	| Data prepare 	|                                                             /                                                             	|
+|   10   	|   resnet18_1d.py  	|    Network   	|                                                             /                                                             	|
+|   11   	|      utlis.py     	| Some metrics 	|                                                             /                                                             	|
 
 
 ## Data availability
