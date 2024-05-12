@@ -9,7 +9,7 @@ In addition to the datasets in the paper, several additional datasets have been 
 |    WT   	|     4   	| 6000 	| 14	| 35	|
 |    HIT   	|     6   	| 512 	| 6	  | 13	|
 |  MCC5-THU(speed) |     6   	| 2456 	| 10	| 33	|
-|  MCC5-THU(load)  |     6   	| 2 	  | 2   | 30	|
+|  MCC5-THU(load)  |     6   	| 1842 	  | 2   | 30	|
 
 ## Results under constant speed condition
 | dataset name  	|     number of sensors(S)     	| sample length(L) 	| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
