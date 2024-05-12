@@ -9,7 +9,7 @@ K is the number of FIMFs, 5~10 is suitable for most situations.
 
 ## Examples
 
-Extract the features from all measured signals, the format of input X should be (examples, sensors, length)
+Extract the features from all measured signals, the format of input X should be (Examples, Sensors, Length).fs(sampling frequency) is a must for "FDM", and kernel_size is indispensable for "Correntropy".The classifier(clf) defaults to Ridge regression.
 ```python
 Extractor = SFCE (fs, K,kernel_size=45,d_method="FDM",corr="Correntropy",clf="RR",z_score=True)
 
