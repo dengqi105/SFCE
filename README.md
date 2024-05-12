@@ -3,7 +3,7 @@
 
 ## Results
 In addition to the datasets in the paper, several additional datasets have been used to validate the effectiveness of SFCE
-| dataset name  	|     File Name     	| Descriptions 	|                                                           Paper                                                           	|
+| dataset name  	|     sensors(S)     	| sample length(L) 	|                                              Paper                                                           	||
 |:------:	|:-----------------:	|:------------:	|:-------------------------------------------------------------------------------------------------------------------------:	|
 |    1   	|      CCDG.py      	|     Model    	|                             Conditional Contrastive Domain Generalization for Fault Diagnosis                             	|
 |    2   	|      CNN-C.py     	|     Model    	| Learn Generalization Feature via Convolutional Neural Network:A Fault Diagnosis Scheme Toward Unseen Operating Conditions 	|
