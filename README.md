@@ -21,8 +21,12 @@ In addition to the datasets in the paper, several additional datasets have been 
 
 ## Data availability
 [KAIST](https://data.mendeley.com/datasets/vxkj334rzv/7)
+
 [HIT](https://github.com/HouLeiHIT/HIT-dataset)
+
 [MCC5-THU](https://data.mendeley.com/datasets/p92gj2732w/2)
+
+[SEU](https://github.com/cathysiyu/Mechanical-datasets)
 
 ## how to use the code
 ## key parameters
