@@ -13,11 +13,11 @@ In addition to the datasets in the paper, several additional datasets have been 
 
 ## Results under constant speed condition
 | dataset name  	|     number of sensors(S)     	| sample length(L) 	|K| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
-|:------:	   |:-----------------:	|:------------:	| :------------:	| :------------:	| :------------:	|
-|    KAIST   |     4   	| 2700 	|9| 1	| 2	|
-|    WT   	 |     4   	| 6000 	|5| 3	| 5	|
-| SEU-gearbox|     8   	| 512 	|7| 3	| 4	|
-| SEU-bearing|     8   	| 512 	|7| 2	| 7	|
+|:------:	    |:-----------------:	|:------------:	| :------------:	| :------------:	| :------------:	|
+|    KAIST    |     4   	| 2700 	|9| 1	| 2	|
+|    WT   	  |     4   	| 6000 	|5| 3	| 5	|
+| SEU(gearbox)|     8   	| 512 	|7| 3	| 4	|
+| SEU(bearing)|     8   	| 512 	|7| 2	| 7	|
 
 ## Data availability
 The [KAIST](https://data.mendeley.com/datasets/vxkj334rzv/7) [HIT](https://github.com/HouLeiHIT/HIT-dataset) [MCC5-THU](https://data.mendeley.com/datasets/p92gj2732w/2) [SEU](https://github.com/cathysiyu/Mechanical-datasets) dataset can be downloaded directly.
