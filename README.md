@@ -4,19 +4,20 @@
 ## Results under the time-varying condition
 In addition to the datasets in the paper, several additional datasets have been used to further validate the effectiveness of SFCE
 | dataset name  	|     number of sensors(S)     	| sample length(L) 	| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
-|:------:	  |:-----------------:	|:------------:	| :------------:	| :------------:	|
-|    KAIST  |     4   	| 2700 	| :------------:	| :------------:	|
-|    WT   	|     4   	| 6000 	| :------------:	| :------------:	|
-|    HIT   	|     6   	| 512 	| :------------:	| :------------:	|
-|  MCC5-THU |     6   	| 512 	| :------------:	| :------------:	|
+|:------:	  |:-----------------:|:------------:	| :------------:	| :------------:	|
+|    KAIST  |     4   	| 2700 	| 15	| 40	|
+|    WT   	|     4   	| 6000 	| 14	| 35	|
+|    HIT   	|     6   	| 512 	| 6	  | 13	|
+|  MCC5-THU(speed) |     6   	| 2456 	| 10	| 33	|
+|  MCC5-THU(load)  |     6   	| 2 	  | 2   | 30	|
 
 ## Results under constant speed condition
 | dataset name  	|     number of sensors(S)     	| sample length(L) 	| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
-|:------:	  |:-----------------:	|:------------:	| :------------:	| :------------:	|
-|    KAIST   |     4   	| 2700 	| :------------:	| :------------:	|
-|    WT   	|     4   	| 6000 	| :------------:	| :------------:	|
-| SEU-gearbox|     8   	| 512 	| :------------:	| :------------:	|
-| SEU-bearing|     6   	| 512 	| :------------:	| :------------:	|
+|:------:	   |:-----------------:	|:------------:	| :------------:	| :------------:	|
+|    KAIST   |     4   	| 2700 	| 1	| 2	|
+|    WT   	 |     4   	| 6000 	| 3	| 5	|
+| SEU-gearbox|     8   	| 512 	| 3	| 4	|
+| SEU-bearing|     8   	| 512 	| 2	| 7	|
 
 ## Data availability
 
@@ -26,7 +27,7 @@ In addition to the datasets in the paper, several additional datasets have been 
 ```
 fs:           the sampling frequency
 
-K:            the number of FIMFs, 5~10 is suitable for most situations.
+K:            the number of FIMFs, 5~9 is suitable for most situations.
 
 d_method:     the data augmentation method. FDM has a superior performance.
 
