@@ -3,7 +3,7 @@
 
 ## how to use the code
 ## key parameters
-fs is the sampling frequency
+**fs** is the sampling frequency
 
 K is the number of FIMFs, 5~10 is suitable for most situations.
 
