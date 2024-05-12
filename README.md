@@ -28,6 +28,7 @@ In addition to the datasets in the paper, several additional datasets have been 
 
 [SEU](https://github.com/cathysiyu/Mechanical-datasets)
 
+The WT dataset in collaboration Weite Technologies is not available for open source sharing due to confidentiality and proprietary considerations.
 ## how to use the code
 ### key parameters
 ```
