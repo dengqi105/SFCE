@@ -17,15 +17,15 @@ In addition to the datasets in the paper, several additional datasets have been 
 ```
 **fs** is the sampling frequency
 
-**K** is the number of FIMFs, 5~10 is suitable for most situations.
+**K**: the number of FIMFs, 5~10 is suitable for most situations.
 
-**d_method** is the data augmentation method. FDM has a superior performance.
+**d_method**: the data augmentation method. FDM has a superior performance.
 
-**corr** is the correlation measure method. The default is the Correntropy.
+**corr**: the correlation measure method. The default is the Correntropy.
 
-**clf** is the classifier. The default is the Ridge regression.
+**clf**: the classifier. The default is the Ridge regression.
 
-**z_score** is the data normalization method.
+**z_score**: the data normalization method.
 ```
 
 ## Examples
