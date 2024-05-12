@@ -3,7 +3,7 @@
 
 ## Results
 In addition to the datasets in the paper, several additional datasets have been used to validate the effectiveness of SFCE
-| dataset name  	|     sensors(S)     	| sample length(L) 	| accuracy for 95% 	| accuracy for 99% 	|
+| dataset name  	|     sensors(S)     	| sample length(L) 	| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
 |:------:	|:-----------------:	|:------------:	| :------------:	| :------------:	|
 |    1   	|      CCDG.py      	|     Model    	| sample length(L) 	| :------------:	|
 
