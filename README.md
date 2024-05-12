@@ -4,7 +4,7 @@
 ## Results under time-varying condition
 In addition to the datasets in the paper, several additional datasets have been used to validate the effectiveness of SFCE
 | dataset name  	|     number of sensors(S)     	| sample length(L) 	| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
-|:------:	  |:-----------------:	|:------------:	| :------------:	| :------------:	| :------------:	|
+|:------:	  |:-----------------:	|:------------:	| :------------:	| :------------:	|
 |    KAIST  |     4   	| 2700 	| :------------:	| :------------:	|
 |    WT   	|     4   	| 6000 	| :------------:	| :------------:	|
 |    HIT   	|     6   	| 512 	| :------------:	| :------------:	|
@@ -12,7 +12,7 @@ In addition to the datasets in the paper, several additional datasets have been 
 
 ## Results under constant speed condition
 | dataset name  	|     number of sensors(S)     	| sample length(L) 	| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
-|:------:	  |:-----------------:	|:------------:	| :------------:	| :------------:	| :------------:	|
+|:------:	  |:-----------------:	|:------------:	| :------------:	| :------------:	|
 |    KAIST   |     4   	| 2700 	| :------------:	| :------------:	|
 | SEU-gearbox|     8   	| 512 	| :------------:	| :------------:	|
 | SEU-bearing|     6   	| 512 	| :------------:	| :------------:	|
