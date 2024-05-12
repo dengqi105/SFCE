@@ -17,7 +17,8 @@ z_score is the data normalization method.
 
 ## Examples
 
-SFCE fuses the features from inner-sensor scale-varied and intra-sensor scale-aligned correlative features (inner_features and intra_features in the code). The number of inner_features and intra_features are S\*(K+1)\*(K+1) and (K+1)\*S\*S
+SFCE fuses the features from inner-sensor scale-varied and intra-sensor scale-aligned correlative features (inner_features and intra_features in the code). The number of inner_features and intra_features are S\*(K+1)\*(K+1) and (K+1)\*S\*S, respectively. S is the number of sensors.
+
 Note that the format of input X should be (Examples, Sensors, Length). fs (sampling frequency) is a must for "FDM", and kernel_size is indispensable for "Correntropy". 
 
 ```python
@@ -26,7 +27,7 @@ Extractor = SFCE (fs, K,kernel_size=45,d_method="FDM",corr="Correntropy",clf="RR
 features, inner_features, intra_features = Extractor.transform(X)
 ```
 
-and predict the result
+After feature extraction, we predict the result. X_train and Y_train are the training set and corresponding labels. X_test is the testing set.
 
 ```python
 
