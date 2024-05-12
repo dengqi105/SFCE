@@ -20,15 +20,9 @@ In addition to the datasets in the paper, several additional datasets have been 
 | SEU-bearing|     8   	| 512 	| 2	| 7	|
 
 ## Data availability
-[KAIST](https://data.mendeley.com/datasets/vxkj334rzv/7)
+The following datasets can be downloaded directly. [KAIST](https://data.mendeley.com/datasets/vxkj334rzv/7) [HIT](https://github.com/HouLeiHIT/HIT-dataset) [MCC5-THU](https://data.mendeley.com/datasets/p92gj2732w/2) [SEU](https://github.com/cathysiyu/Mechanical-datasets)
 
-[HIT](https://github.com/HouLeiHIT/HIT-dataset)
-
-[MCC5-THU](https://data.mendeley.com/datasets/p92gj2732w/2)
-
-[SEU](https://github.com/cathysiyu/Mechanical-datasets)
-
-The WT dataset in collaboration Weite Technologies is not available for open source sharing due to confidentiality and proprietary considerations.
+The WT dataset in collaboration with Weite Technologies is not available for open source sharing due to confidentiality and proprietary considerations.
 ## how to use the code
 ### key parameters
 ```
