@@ -1,7 +1,7 @@
 
 # SFCE: mining distinguishing correlative features for mechanical fault diagnosis towards time-varying conditions
 
-## Results under time-varying condition
+## Results under the time-varying condition
 In addition to the datasets in the paper, several additional datasets have been used to validate the effectiveness of SFCE
 | dataset name  	|     number of sensors(S)     	| sample length(L) 	| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
 |:------:	  |:-----------------:	|:------------:	| :------------:	| :------------:	|
@@ -14,10 +14,9 @@ In addition to the datasets in the paper, several additional datasets have been 
 | dataset name  	|     number of sensors(S)     	| sample length(L) 	| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
 |:------:	  |:-----------------:	|:------------:	| :------------:	| :------------:	|
 |    KAIST   |     4   	| 2700 	| :------------:	| :------------:	|
+|    WT   	|     4   	| 6000 	| :------------:	| :------------:	|
 | SEU-gearbox|     8   	| 512 	| :------------:	| :------------:	|
 | SEU-bearing|     6   	| 512 	| :------------:	| :------------:	|
-|    WT   	|     4   	| 6000 	| :------------:	| :------------:	|
-
 
 ## Data availability
 
