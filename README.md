@@ -1,5 +1,5 @@
 
-# SFCE: mining distinguishing correlative features for mechanical fault diagnosis towards time-varying conditions
+# SFCE: mining distinguishing correlative features for mechanical fault diagnosis under time-varying conditions
 <div align="center">
 <img src="https://github.com/dengqi105/SFCE/blob/main/main.png" width="700" />
 </div>
