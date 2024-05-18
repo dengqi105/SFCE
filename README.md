@@ -31,7 +31,7 @@ The WT dataset in collaboration with Weite Technologies is not available for ope
 ## how to use the code
 ### Requirements\*
 
-* numPy, pandas, scipy
+* numpy, pandas, scipy
 * scikit-learn
 * [vmdpy](https://pypi.org/project/vmdpy/) (optional) and [ewtpy](https://pypi.org/project/ewtpy/) (optional)
 
