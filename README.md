@@ -62,4 +62,6 @@ After feature extraction, the result can be predicted using the following code. 
 
 Y_pre = Extractor.fit_predict(X_train, Y_train, X_test)
 ```
+## Citation
 
+## Contact
