@@ -51,7 +51,7 @@ Extractor = SFCE (fs, K,kernel_size=45,d_method="FDM",corr="Correntropy",clf="RR
 features, inner_features, intra_features = Extractor.transform(X)
 ```
 
-After feature extraction, the result can be predicted using the following code.  X_train and Y_train are the training data and corresponding labels.  X_test is the testing data.
+After feature extraction, the result can be predicted using the following code.  X_train and Y_train are the training set and corresponding labels.  X_test is the testing set.
 
 ```python
 
