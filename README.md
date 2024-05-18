@@ -1,5 +1,10 @@
 
 # SFCE: mining distinguishing correlative features for mechanical fault diagnosis towards time-varying conditions
+<div align="center">
+<img src="https://github.com/dengqi105/SFCE/blob/main/main.jpg" width="700" />
+</div>
+
+
 
 ## Results under the time-varying condition
 In addition to the datasets in the paper, several additional datasets have been used to further validate the effectiveness of SFCE
