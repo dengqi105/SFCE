@@ -29,6 +29,12 @@ The [KAIST](https://data.mendeley.com/datasets/vxkj334rzv/7) [HIT](https://githu
 
 The WT dataset in collaboration with Weite Technologies is not available for open source sharing due to confidentiality and proprietary considerations.
 ## how to use the code
+### Requirements\*
+
+* Python, NumPy, pandas,scipy
+* scikit-learn
+* [vmdpy](https://pypi.org/project/vmdpy/)(optional) and [ewtpy](https://pypi.org/project/ewtpy/)(optional)
+
 ### key parameters
 ```
 fs:           the sampling frequency
