@@ -9,7 +9,7 @@
 ## Results under the time-varying condition
 The WT dataset in collaboration with Weite Technologies is not available for open source sharing due to confidentiality and proprietary considerations. The [KAIST](https://data.mendeley.com/datasets/vxkj334rzv/7) [HIT](https://github.com/HouLeiHIT/HIT-dataset) [MCC5-THU](https://data.mendeley.com/datasets/p92gj2732w/2) [SEU](https://github.com/cathysiyu/Mechanical-datasets) dataset can be downloaded directly.
 
-| dataset name  	|     number of sensors(S)     	| sample length(L) 	|K| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
+| dataset |     number of sensors(S)     	| sample length(L) 	|K| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
 |:------:	  |:-----------------:|:------------:	| :------------:	| :------------:	| :------------:	|
 |    KAIST        |     4   	| 2700 	|9| 15	| 40	|
 |    WT   	      |     4   	| 6000 	|5| 14	| 35	|
@@ -18,7 +18,7 @@ The WT dataset in collaboration with Weite Technologies is not available for ope
 |  MCC5-THU(load) |     6   	| 1842 	|5| 2   | 30	|
 
 ## Results under constant speed condition
-| dataset name  	|     number of sensors(S)     	| sample length(L) 	|K| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
+| dataset 	|     number of sensors(S)     	| sample length(L) 	|K| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
 |:------:	    |:-----------------:	|:------------:	| :------------:	| :------------:	| :------------:	|
 |    KAIST    |     4   	| 2700 	|9| 1	| 2	|
 |    WT   	  |     4   	| 6000 	|5| 3	| 5	|
