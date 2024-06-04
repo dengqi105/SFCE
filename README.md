@@ -7,7 +7,8 @@
 
 
 ## Results under the time-varying condition
-In addition to the datasets in the paper, several additional datasets have been used to further validate the effectiveness of SFCE
+The WT dataset in collaboration with Weite Technologies is not available for open source sharing due to confidentiality and proprietary considerations. The [KAIST](https://data.mendeley.com/datasets/vxkj334rzv/7) [HIT](https://github.com/HouLeiHIT/HIT-dataset) [MCC5-THU](https://data.mendeley.com/datasets/p92gj2732w/2) [SEU](https://github.com/cathysiyu/Mechanical-datasets) dataset can be downloaded directly.
+
 | dataset name  	|     number of sensors(S)     	| sample length(L) 	|K| required training sample number for 95% accuracy|  required training sample number for 99% accuracy|
 |:------:	  |:-----------------:|:------------:	| :------------:	| :------------:	| :------------:	|
 |    KAIST        |     4   	| 2700 	|9| 15	| 40	|
@@ -24,10 +25,6 @@ In addition to the datasets in the paper, several additional datasets have been 
 | SEU(gearbox)|     8   	| 512 	|7| 3	| 4	|
 | SEU(bearing)|     8   	| 512 	|7| 2	| 7	|
 
-## Data availability
-The [KAIST](https://data.mendeley.com/datasets/vxkj334rzv/7) [HIT](https://github.com/HouLeiHIT/HIT-dataset) [MCC5-THU](https://data.mendeley.com/datasets/p92gj2732w/2) [SEU](https://github.com/cathysiyu/Mechanical-datasets) dataset can be downloaded directly.
-
-The WT dataset in collaboration with Weite Technologies is not available for open source sharing due to confidentiality and proprietary considerations.
 ## how to use the code
 ### Requirements\*
 
