@@ -51,7 +51,7 @@ z_score:      the data normalization method.
 
 ### Examples
 
-SFCE incorporates intra-sensor scale-varied  and inter-sensor scale-aligned correlation (inner_features and intra_features in the code). The number of inner_features and intra_features are S\*(K+1)\*(K+1) and (K+1)\*S\*S, respectively. It is suitable for vibration, sound, displacement, torque, temperature， and electrical vortex signals.
+SFCE incorporates intra-sensor scale-varied  and inter-sensor scale-aligned correlation (inner_features and intra_features in the code). The number of inner_features and intra_features are S\*(K+1)\*(K+1) and (K+1)\*S\*S, respectively. It is suitable for vibration, sound, displacement, torque, temperature, and electrical vortex signals.
 
 Note that the format of input X should be (Examples, Sensors, Length).  fs (sampling frequency) is a must for "FDM", and kernel_size is indispensable for "Correntropy". 
 
