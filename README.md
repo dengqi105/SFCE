@@ -1,5 +1,5 @@
 
-# SFCE: Scale-information fused correntropy representation for mechanical fault diagnosis under time-varying conditions
+# Scale-information fused correntropy representation for mechanical fault diagnosis under time-varying conditions
 <div align="center">
 <img src="https://github.com/dengqi105/SFCE/blob/main/main1.png" width="700" />
 </div>
