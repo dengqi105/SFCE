@@ -27,14 +27,14 @@ The WT dataset in collaboration with Weite Technologies is not available for ope
 | SEU(bearing)|     8   	| 512 	|7| 2	| 7	|
 |UOEMD(unload)|     5     | 2800 	|5| 2 | 3 |
 |UOEMD(load)  |     5     | 2800 	|5| 2 | 3 |
-## how to use the code
+## How to use the code
 ### Requirements\*
 
 * numpy, pandas, scipy
 * scikit-learn
 * [vmdpy](https://pypi.org/project/vmdpy/) (optional) and [ewtpy](https://pypi.org/project/ewtpy/) (optional)
 
-### key parameters
+### Key parameters
 It is suitable for vibration, sound, displacement, torque, temperature, and electrical vortex signals.
 ```
 fs:           the sampling frequency
