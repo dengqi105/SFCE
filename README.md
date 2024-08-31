@@ -67,7 +67,8 @@ After feature extraction, the result can be predicted using the following code. 
 ```python
 
 Y_pre = Extractor.fit_predict(X_train, Y_train, X_test)
-```
-## Citation
 
+```
+## Status
+The code of model is currently private and will be released after the paper is accepted.
 ## Contact
